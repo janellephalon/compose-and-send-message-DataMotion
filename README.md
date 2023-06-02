@@ -37,7 +37,7 @@ THEN I am presented with an alert detailing the error that occurred
 ```
 
 ## Installation
-To run the project locally, clone this repository and navigate into the project folder. Open the HTML file in your browser.
+To run the project locally, clone this repository and navigate into the project folder. Add your credentials to the JavaScript file and open the HTML file in your browser.
 
 ## Usage
 Enter your email, the recipient's email, and your message into the appropriate fields, then click the Send button.
