@@ -46,5 +46,6 @@ Enter your email, the recipient's email, and your message into the appropriate f
 Our application uses JavaScript's Fetch API to interact with DataMotion's API. The form submission event triggers a function which retrieves an access token from DataMotion. This token is then used in a second function to send the user's message securely.
 
 ## Contributors
-- [Janelle Phalon](https://github.com/janellephalon)
+- [Janelle Phalon](https://github.com/janellephalon) <br>
+  Developer Advocate at DataMotion
 
