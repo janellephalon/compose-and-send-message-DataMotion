@@ -29,8 +29,8 @@ document.getElementById("secure-message-form").addEventListener("submit", functi
     },
     body: JSON.stringify({
       grant_type: "client_credentials",
-      client_id: "janellep@datamotion.com",
-      client_secret: "devDemo*55"
+      client_id: "your-client-id",
+      client_secret: "your-client-secret"
     })
   })
   .then(function(response) {
