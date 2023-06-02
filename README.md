@@ -11,7 +11,6 @@ This application provides a secure way for users to send messages using DataMoti
   - [Installation](#installation)
   - [Usage](#usage)
   - [Code Explanation](#code-explanation)
-  - [Demo](#demo)
   - [Contributors](#contributors)
 
 ## User Story
