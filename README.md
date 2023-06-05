@@ -39,7 +39,18 @@ THEN I am presented with an alert detailing the error that occurred
 To run the project locally, clone this repository and navigate into the project folder. Add your credentials to the JavaScript file and open the HTML file in your browser.
 
 ## Usage
-Enter your email, the recipient's email, and your message into the appropriate fields, then click the Send button.
+1. Add your DataMotion credentials to the JavaScript file. Refer to the Credentials section for more details.
+2. Open the HTML file in your browser.
+3. Enter your email, the recipient's email, and your message into the appropriate fields, then click the Send button.
+
+## Credentials
+To ensure secure messaging via the DataMotion API, specific credentials are needed, which differ based on your usage status - trial or customer. 
+
+- **Trial Users**: You should utilize the sandbox API at `https://api.datamotion.com/SMC/Messaging/v3-Sandbox`. Your credentials for this sandbox API align with your trial Customer Self Service credentials.
+
+- **Customers**: Once you transition from trial to a full customer, your API changes to `https://api.datamotion.com/SMC/Messaging/v3`. For this, your Secure Message Portal (SSL) credentials serve as your authentication.
+
+By correctly using these credentials, you'll effectively secure your communication and ensure optimal functionality of this application.
 
 ## Code Explanation
 Our application uses JavaScript's Fetch API to interact with DataMotion's API. The form submission event triggers a function which retrieves an access token from DataMotion. This token is then used in a second function to send the user's message securely.
