@@ -10,6 +10,7 @@ This application provides a secure way for users to send messages using DataMoti
   - [Acceptance Criteria](#acceptance-criteria)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Credentials](#credentials)
   - [Code Explanation](#code-explanation)
   - [Contributors](#contributors)
 
@@ -39,7 +40,7 @@ THEN I am presented with an alert detailing the error that occurred
 To run the project locally, clone this repository and navigate into the project folder. Add your credentials to the JavaScript file and open the HTML file in your browser.
 
 ## Usage
-1. Add your DataMotion credentials to the JavaScript file. Refer to the Credentials section for more details.
+1. Add your DataMotion credentials to the JavaScript file. Refer to the [credentials](#credentials) section for more details.
 2. Open the HTML file in your browser.
 3. Enter your email, the recipient's email, and your message into the appropriate fields, then click the Send button.
 
