@@ -1,7 +1,7 @@
 # Compose and Send a Secure Message in Minutes with DataMotion's Secure Message Center APIs
 
 ## Description
-This application provides a secure way for users to send messages using DataMotion's API. The form we've designed prompts the user for their email, the recipient's email, and the message content. Once the form is submitted, a series of JavaScript functions retrieve an access token from DataMotion and use it to send the message securely. This project demonstrates the capabilities of DataMotion's API and how it can be integrated into a web-based application for secure communication.
+This application provides a secure way for users to send messages using [DataMotion's](https://datamotion.com/) API. The form we've designed prompts the user for their email, the recipient's email, and the message content. Once the form is submitted, a series of JavaScript functions retrieve an access token from DataMotion and use it to send the message securely. This project demonstrates the capabilities of DataMotion's [Secure Message Center APIs](https://datamotion.com/portal/project/DataMotion/product/api/SecureMessageCenter) and how it can be integrated into a web-based application for secure communication.
 
 ## Table of Contents 
   - [Description](#description)
